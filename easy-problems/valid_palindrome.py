@@ -3,7 +3,6 @@ import re
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         clean_text = re.sub(r'[^a-zA-Z0-9]', "", s)
-        print(clean_text)
         potential_palindrome = clean_text.lower()
         return potential_palindrome == potential_palindrome[::-1]
 
