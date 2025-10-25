@@ -2,7 +2,7 @@
 My solutions for LeetCode problems
 
 ## Progress
-- ✅ Easy: 23
+- ✅ Easy: 24
 - 🔄 Medium: 3  
 - ❌ Hard: 0
 
