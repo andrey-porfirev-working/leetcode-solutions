@@ -3,7 +3,7 @@ My solutions for LeetCode problems
 
 ## Progress
 - ✅ Easy: 27
-- 🔄 Medium: 17  
+- 🔄 Medium: 18  
 - ❌ Hard: 0
 
 ## Structure
