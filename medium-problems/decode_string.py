@@ -17,3 +17,23 @@ class Solution:
             else:
                 stack_words_to_add[-1] += l
         return stack_words_to_add[-1]
+
+    def decodeString_v_2(self, s: str) -> str:
+        nums = [""]
+        words = [""]
+
+        for char in s:
+            if char.isdigit():
+                nums[-1] += char
+            elif char == "[":
+                nums[-1] = int(nums[-1])
+                nums.append("")
+                words.append("")
+            elif char == "]":
+                num = nums.pop(-2)
+                current_word = words.pop()
+                words[-1] += current_word * num
+            else:
+                words[-1] += char
+
+        return words[0]
