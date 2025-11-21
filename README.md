@@ -2,8 +2,8 @@
 My solutions for LeetCode problems
 
 ## Progress
-- ✅ Easy: 30
-- 🔄 Medium: 22  
+- ✅ Easy: 32
+- 🔄 Medium: 29 
 - ❌ Hard: 0
 
 ## Structure
